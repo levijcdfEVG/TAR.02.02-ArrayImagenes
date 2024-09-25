@@ -1,4 +1,6 @@
-
+<?php 
+    require 'imagenes.php';
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,9 +13,9 @@
             <table>
                 <tr>
                     <?php 
-                        echo "<td><img src=".$arrayImagenes['alentejo']."></td>";
-                        echo "<td><img src=".$arrayImagenes['montania']."></td>";
-                        echo "<td><img src=".$arrayImagenes['playa']."></td>";
+                        foreach ($arrayImagenes as $descripcion => $imagen) {
+                           
+                        }
                     ?>
                 </tr>
             </table>
