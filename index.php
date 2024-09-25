@@ -14,7 +14,7 @@
                 <tr>
                     <?php 
                         foreach ($arrayImagenes as $descripcion => $imagen) {
-                            echo "<td><figure><img src=".$imagen." alt=".$descripcion."/><figcaption>".$descripcion."</figcaption></figure></td>";
+                            echo "<td><figure><img src='img/" . $imagen . "' alt='" . $descripcion . "'/><figcaption>" . $descripcion . "</figcaption></figure></td>";
                         }
                     ?>
                 </tr>
