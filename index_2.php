@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,9 +10,11 @@
         <main>
             <table>
                 <tr>
-                    <td><img src="/img/alentejo.jpeg"></td>
-                    <td><img src="/img/montania.jpeg"></td>
-                    <td><img src="/img/playa.jpeg"></td>
+                    <?php 
+                        echo "<td><img src=".$arrayImagenes['alentejo']."></td>";
+                        echo "<td><img src=".$arrayImagenes['montania']."></td>";
+                        echo "<td><img src=".$arrayImagenes['playa']."></td>";
+                    ?>
                 </tr>
             </table>
         </main>
