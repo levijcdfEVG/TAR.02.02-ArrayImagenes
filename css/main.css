@@ -2,3 +2,8 @@ main{
     width: 50%;
     margin: auto;
 }
+
+figure > img{
+    width: 100px;
+    height: 100px;
+}
