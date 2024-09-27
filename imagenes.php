@@ -1,9 +1,8 @@
 <?php 
-    $arrayImagenes = array(); //Duda
+    //$arrayImagenes = array(); //Duda
+
+    // Se rellena un array cuyos indices son los nombres de la imagen y el contenido es una cadena con el nombre de los archivos de imagen
     $arrayImagenes['alentejo'] = 'alentejo.jpeg';
     $arrayImagenes['montania'] = 'montania.jpeg';
     $arrayImagenes['playa'] = 'playa.jpeg';
-    $arrayImagenes['alentejo2'] = 'alentejo.jpeg';
-    $arrayImagenes['montania2'] = 'montania.jpeg';
-    $arrayImagenes['playa2'] = 'playa.jpeg';
 ?>
