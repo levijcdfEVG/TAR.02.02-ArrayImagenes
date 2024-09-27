@@ -13,6 +13,7 @@
             <table>
                 <tr>
                     <?php 
+                        //var_dump($arrayImagenes);
                         foreach ($arrayImagenes as $descripcion => $imagen) {
                             echo "<td><figure><img src='img/" . $imagen . "' alt='" . $descripcion . "'/><figcaption>" . $descripcion . "</figcaption></figure></td>";
                         }
